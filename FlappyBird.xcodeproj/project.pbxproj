@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840F32C8225E367100CE1AC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B3F8152221F74B0082056C /* Assets.xcassets */; };
 		84B3F80F2221F74B0082056C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3F80E2221F74B0082056C /* AppDelegate.swift */; };
 		84B3F8112221F74B0082056C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3F8102221F74B0082056C /* ViewController.swift */; };
 		84B3F8142221F74B0082056C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B3F8122221F74B0082056C /* Main.storyboard */; };
-		84B3F8162221F74B0082056C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B3F8152221F74B0082056C /* Assets.xcassets */; };
 		84B3F8192221F74B0082056C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B3F8172221F74B0082056C /* LaunchScreen.storyboard */; };
 		84B3F8212221FC4A0082056C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3F8202221FC4A0082056C /* GameScene.swift */; };
+		84D8CEC9225F73F100B05AAF /* correct2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84D8CEC8225F73F100B05AAF /* correct2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		84B3F8182221F74B0082056C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B3F81A2221F74B0082056C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84B3F8202221FC4A0082056C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		84D8CEC8225F73F100B05AAF /* correct2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				84B3F8152221F74B0082056C /* Assets.xcassets */,
 				84B3F8172221F74B0082056C /* LaunchScreen.storyboard */,
 				84B3F81A2221F74B0082056C /* Info.plist */,
+				84D8CEC8225F73F100B05AAF /* correct2.mp3 */,
 				84B3F8202221FC4A0082056C /* GameScene.swift */,
 			);
 			path = FlappyBird;
@@ -126,7 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84B3F8192221F74B0082056C /* LaunchScreen.storyboard in Resources */,
-				84B3F8162221F74B0082056C /* Assets.xcassets in Resources */,
+				840F32C8225E367100CE1AC7 /* Assets.xcassets in Resources */,
+				84D8CEC9225F73F100B05AAF /* correct2.mp3 in Resources */,
 				84B3F8142221F74B0082056C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
